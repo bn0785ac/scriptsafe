@@ -185,6 +185,8 @@ function genUserAgent(force) {
 			userAgent = 'Opera/9.80 ('+os+') Presto/2.9.168 Version/11.50';
 		else if (localStorage['useragentspoof'] == 'firefox57')
 			userAgent = 'Mozilla/5.0 ('+os+'; rv:57.0) Gecko/20100101 Firefox/57.0';
+		else if (localStorage['useragentspoof'] == 'firefox52')
+			userAgent = 'Mozilla/5.0 ('+os+'; rv:52.0) Gecko/20100101 Firefox/52.0';
 		else if (localStorage['useragentspoof'] == 'firefox50')
 			userAgent = 'Mozilla/5.0 ('+os+'; rv:50.0) Gecko/20100101 Firefox/50.0';
 		else if (localStorage['useragentspoof'] == 'firefox48')
